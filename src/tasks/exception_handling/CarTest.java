@@ -50,8 +50,8 @@ public class CarTest {
             System.out.println("Car Stopped : " + cs.getMessage());
         } catch (CarPuncture e) {
             System.out.println("Car Punctured : " + e.getMessage());
-        } catch (CarHeat e) {
-            System.out.println("Car Heat : " + e.getMessage());
+        } catch (CarHeat e){
+            System.out.println("Car Headted : " + e.getMessage());
         }
     }
 }

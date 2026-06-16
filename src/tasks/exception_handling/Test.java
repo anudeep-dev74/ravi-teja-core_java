@@ -16,8 +16,8 @@ class Handling {
             int result = 100 / num;
             System.out.println("Result: " + result);
             System.out.println("Completed");
-        } catch (Exception e) {
-            System.out.println("Arithmetic Exception: " + e.getMessage());
+        } catch (Exception e1) {
+            System.out.println("Arithmetic Exception: " + e1.getMessage());
         }finally {
             System.out.println("Finally");
         }
